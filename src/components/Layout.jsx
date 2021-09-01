@@ -1,10 +1,9 @@
-import { Flex} from "@chakra-ui/react";
+import { Flex, position } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 export const Layout = ({ children }) => {
   return (
     <Flex
-      minH={440}
       minH="100vh"
       bg="linear-gradient(180deg, #2F6E81 0%, #203347 100%)"
       color="#fafafa"
@@ -32,6 +31,7 @@ export const Layout = ({ children }) => {
           transition={{ duration: 35, repeat: Infinity, easings: "linear" }}
         />
         <motion.img
+          style={{ position: "absolute" }}
           alt="efeito"
           src="/cicleEffectB.svg"
           animate={{
