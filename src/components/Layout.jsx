@@ -33,8 +33,8 @@ export const Layout = ({ children }) => {
         />
         <motion.img
           alt="efeito"
-          style={{ position: "absolute", scale: ".8" }}
-          src="/cicleEffect.svg"
+          style={{ position: "absolute"}}
+          src="/cicleEffectB.svg"
           animate={{
             rotate: [0, -270, 0],
           }}
