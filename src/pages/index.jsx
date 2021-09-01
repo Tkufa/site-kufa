@@ -8,7 +8,7 @@ export default function Home() {
         w="100vw"
         h="auto"
         justify={["space-evenly", "", "", "space-between"]}
-        align="center"
+       
         direction={["column-reverse", "row"]}
         mb='75px'
       >

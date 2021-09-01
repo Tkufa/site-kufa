@@ -1,4 +1,4 @@
-import { Flex, position } from "@chakra-ui/react";
+import { Flex} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 export const Layout = ({ children }) => {
@@ -45,8 +45,7 @@ export const Layout = ({ children }) => {
         maxW="1130px"
         zIndex="1"
         align="center"
-        justify="center"
-        position="relative"
+      
       >
         {children}
       </Flex>
