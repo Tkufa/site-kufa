@@ -23,9 +23,9 @@ export default function Home() {
             designs únicos e criativos.
           </Text>
         </Box>
-        <Image  src="/avatar.png" w={["80vw","35vw","35vw","auto"]} />
+        <Image  src="/avatar.png" w={["80vw","35vw","35vw","auto"]} alt='avatar' />
       </Flex>
-      <Image maxW='80%' src='/menuBotStatic.png' position='absolute' left='0' bottom='0' />
+      <Image maxW='80%' src='/menuBotStatic.png' position='absolute' left='0' bottom='0' alt='menuBotStatic' />
     </Layout>
   );
 }

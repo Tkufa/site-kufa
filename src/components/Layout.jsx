@@ -24,6 +24,7 @@ export const Layout = ({ children }) => {
         opacity="0.3"
       >
         <motion.img
+          alt="efeito"
           src="/cicleEffect.svg"
           animate={{
             rotate: [0, 270, 0],
@@ -31,6 +32,7 @@ export const Layout = ({ children }) => {
           transition={{ duration: 35, repeat: Infinity, easings: "linear" }}
         />
         <motion.img
+          alt="efeito"
           style={{ position: "absolute", scale: ".8" }}
           src="/cicleEffect.svg"
           animate={{
@@ -39,7 +41,14 @@ export const Layout = ({ children }) => {
           transition={{ duration: 35, repeat: Infinity, type: "spring" }}
         />
       </Flex>
-      <Flex minH="100vh" maxW="1130px" zIndex="1" align="center" justify="center" position='relative'>
+      <Flex
+        minH="100vh"
+        maxW="1130px"
+        zIndex="1"
+        align="center"
+        justify="center"
+        position="relative"
+      >
         {children}
       </Flex>
     </Flex>
