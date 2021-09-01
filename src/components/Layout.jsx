@@ -1,4 +1,4 @@
-import { Flex, Image } from "@chakra-ui/react";
+import { Flex} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 export const Layout = ({ children }) => {
@@ -33,7 +33,6 @@ export const Layout = ({ children }) => {
         />
         <motion.img
           alt="efeito"
-          style={{ position: "absolute"}}
           src="/cicleEffectB.svg"
           animate={{
             rotate: [0, -270, 0],
